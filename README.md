@@ -2,7 +2,7 @@
 
 #Some useful models
 
-#logisic regression）
+#logisic regression
 #model = LogisticRegression()
 
 #Random Forests Model
