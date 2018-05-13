@@ -2,36 +2,36 @@
 
 ## Some useful ML models
 
-* Logisic Regression
+### Logisic Regression
 
 model = LogisticRegression()
 
-* Random Forests Model
+### Random Forests Model
 
-#from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 
-#model = RandomForestClassifier(n_estimators=100)
+model = RandomForestClassifier(n_estimators=100)
 
-#Support Vector Machines
+### Support Vector Machines
 
-#from sklearn.svm import SVC, LinearSVC
+from sklearn.svm import SVC, LinearSVC
 
-#model = SVC()
+model = SVC()
 
-#Gradient Boosting Classifier
+### Gradient Boosting Classifier
 
-#from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 
-#model = GradientBoostingClassifier()
+model = GradientBoostingClassifier()
 
-#K-nearest neighbors
+### K-nearest Neighbors
 
-#from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsClassifier
 
-#model = KNeighborsClassifier(n_neighbors = 3)
+model = KNeighborsClassifier(n_neighbors = 3)
 
-#Gaussian Naive Bayes
+### Gaussian Naive Bayes
 
-#from sklearn.naive_bayes import GaussianNB
+from sklearn.naive_bayes import GaussianNB
 
-#model = GaussianNB()
+model = GaussianNB()
