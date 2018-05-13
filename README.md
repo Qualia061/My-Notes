@@ -1,13 +1,19 @@
 # **_Notes_**
 
-## Some useful ML models
+## Some Popular ML Models
 
 ### Logisic Regression
 ```python
+from sklearn.linear_model import LogisticRegression
+
 model = LogisticRegression()
+model.fit(x_train,y_train)
+model.score(x_test,y_test)
+prediction=model.predict(pred_x)
 ```
 ### Random Forests Model
 ```python
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.ensemble import RandomForestClassifier
 
 model = RandomForestClassifier(n_estimators=100)
@@ -35,4 +41,13 @@ model = KNeighborsClassifier(n_neighbors = 3)
 from sklearn.naive_bayes import GaussianNB
 
 model = GaussianNB()
+```
+
+## Other Packages
+```python
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.cross_validation import train_test_split
 ```
