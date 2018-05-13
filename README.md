@@ -1,8 +1,8 @@
-*Notes*
+# **_Notes_**
 
-#Some useful models
+## Some useful ML models
 
-#logisic regression
+### ⋅⋅* logisic regression
 
 #model = LogisticRegression()
 
