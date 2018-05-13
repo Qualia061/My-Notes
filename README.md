@@ -2,7 +2,7 @@
 
 ## Some useful ML models
 
-### ⋅⋅* logisic regression
+⋅⋅* ### logisic regression
 
 #model = LogisticRegression()
 
