@@ -3,7 +3,7 @@
 #Some useful models
 
 #logisic regression）
-model = LogisticRegression()
+#model = LogisticRegression()
 
 #Random Forests Model
 #from sklearn.ensemble import RandomForestClassifier
