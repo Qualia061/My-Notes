@@ -2,11 +2,11 @@
 
 ## Some useful ML models
 
-* logisic regression
+* Logisic Regression
 
-#model = LogisticRegression()
+model = LogisticRegression()
 
-#Random Forests Model
+* Random Forests Model
 
 #from sklearn.ensemble import RandomForestClassifier
 
