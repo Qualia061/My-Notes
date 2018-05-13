@@ -1,7 +1,7 @@
 # **_Notes_**
 
 ## Some useful ML models
-
+```python
 ### Logisic Regression
 
 model = LogisticRegression()
@@ -35,3 +35,4 @@ model = KNeighborsClassifier(n_neighbors = 3)
 from sklearn.naive_bayes import GaussianNB
 
 model = GaussianNB()
+```
