@@ -50,6 +50,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from datetime import datetime
 from sklearn.cross_validation import train_test_split
 from sklearn.model_selection import RandomizedSearchCV
 ```
