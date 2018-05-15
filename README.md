@@ -34,6 +34,7 @@ model = GradientBoostingClassifier()
 ### K-nearest Neighbors
 ```python
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsRegressor
 
 model = KNeighborsClassifier(n_neighbors = 3)
 ```
