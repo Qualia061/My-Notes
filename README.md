@@ -48,10 +48,19 @@ model = GaussianNB()
 ### Tuning the Parameters
 ```python
 from sklearn.grid_search import GridSearchCV
+from sklearn import metrics
+
 grid.grid_scores_
 grid.best_score_    
 grid.best_params_  
 grid.best_estimator_
+
+#Example
+params={'learning_rate':np.linspace(0.05,0.25,5), 'max_depth':[x for x in range(1,8,1)], 'min_samples_leaf':
+                [x for x in range(1,5,1)], 'n_estimators':[x for x in range(50,100,10)]}
+clf = GradientBoostingClassifier()
+grid = GridSearchCV(clf, params, cv=10, scoring="f1")
+grid.fit(X, y)
 ```
 
 ## Other Packages
