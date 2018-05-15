@@ -74,4 +74,8 @@ from sklearn.cross_validation import train_test_split
 from sklearn.model_selection import RandomizedSearchCV
 ```
 
+## Unsolved Problems
+1. Data Visualizatoin
+2. Overfitting
+3. Tuning the parameters
 
