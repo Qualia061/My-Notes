@@ -45,6 +45,15 @@ from sklearn.naive_bayes import GaussianNB
 model = GaussianNB()
 ```
 
+### Tuning the Parameters
+```python
+from sklearn.grid_search import GridSearchCV
+grid.grid_scores_
+grid.best_score_    
+grid.best_params_  
+grid.best_estimator_
+```
+
 ## Other Packages
 ```python
 import pandas as pd
@@ -55,3 +64,5 @@ from datetime import datetime
 from sklearn.cross_validation import train_test_split
 from sklearn.model_selection import RandomizedSearchCV
 ```
+
+
