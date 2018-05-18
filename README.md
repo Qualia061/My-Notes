@@ -1,4 +1,4 @@
-# **_Notes_**
+# **_My Notes_**
 
 ## Some Popular ML Models
 
