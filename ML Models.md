@@ -24,7 +24,7 @@ from sklearn.svm import SVC, LinearSVC
 
 model = SVC()
 ```
-### Gradient Boosting Classifier
+### Gradient Boosting
 ```python
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import GradientBoostingRegressor
@@ -41,6 +41,14 @@ model = KNeighborsClassifier(n_neighbors = 3)
 ### Gaussian Naive Bayes
 ```python
 from sklearn.naive_bayes import GaussianNB
+
+model = GaussianNB()
+```
+### XGBoost
+```python
+import xgboost as xgb
+from xgboost.sklearn import XGBClassifier
+from xgboost.sklearn import XGBRegressor
 
 model = GaussianNB()
 ```
