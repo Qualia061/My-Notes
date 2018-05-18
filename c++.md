@@ -1,14 +1,13 @@
-#include <iostream>
+# **_My Notes_**
 
-using namespace std;
+## Some Popular ML Models
 
-int main()
-{
-  cout << "Hello World!" << endl;
-  // make some changes
-  // make the second changes
-  // make the third changes
-  // woshishabi
-  // nicaishishabi
-  // i am enough with this shit
-}
+### Logisic Regression
+```python
+from sklearn.linear_model import LogisticRegression
+
+model = LogisticRegression()
+model.fit(x_train,y_train)
+model.score(x_test,y_test)
+prediction=model.predict(pred_x)
+```
