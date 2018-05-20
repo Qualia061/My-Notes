@@ -51,14 +51,14 @@ param_test2 = {
 ```
 Step 4: Tune subsample and colsample_bytree
 ```python
-param_test4 = {
+param_test3 = {
  'subsample':[i/10.0 for i in range(6,10)],
  'colsample_bytree':[i/10.0 for i in range(6,10)]
 }
 ```
 Step 5: Tuning Regularization Parameters
 ```python
-param_test6 = {
+param_test4 = {
  'reg_alpha':[1e-5, 1e-2, 0.1, 1, 100]
 }
 ```
