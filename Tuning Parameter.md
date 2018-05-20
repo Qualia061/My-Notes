@@ -19,13 +19,13 @@ from sklearn.grid_search import GridSearchCV
 Step 1: Set initial values of parameters
 ```python
 xgb_best = XGBClassifier(
- learning_rate =0.1,
+ learning_rate =0.1, # 0.05~0.3
  n_estimators=100,
- max_depth=5,
+ max_depth=5, # 3~10
  min_child_weight=1,
  gamma=0,
- subsample=0.8,
- colsample_bytree=0.8,
+ subsample=0.8, # 0.5~0.9
+ colsample_bytree=0.8, # 0.5~0.9
  objective= 'binary:logistic', # or multi:softmax, reg:linear
  nthread=4,
  scale_pos_weight=1,
