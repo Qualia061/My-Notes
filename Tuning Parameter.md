@@ -7,9 +7,16 @@
 
 ```
 ### Random Forests Model
+Import libraries
 ```python
-
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.grid_search import GridSearchCV
 ```
+Important parameters:
+1.n_estimators
+2.max_features
+3.min_sample_leaf
+
 ### XGBoost
 Import libraries
 ```python
