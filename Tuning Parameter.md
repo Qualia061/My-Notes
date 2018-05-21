@@ -19,7 +19,7 @@ Important parameters:
 
 2.max_features
 
-3.min_sample_leaf
+3.min_samples_leaf
 
 
 ### XGBoost
