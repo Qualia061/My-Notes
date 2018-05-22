@@ -3,8 +3,10 @@
 ## Some Popular ML Models
 
 ### GradientBoosting
+Import libraries
 ```python
-
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.grid_search import GridSearchCV
 ```
 ### Random Forests Model
 Import libraries
