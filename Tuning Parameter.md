@@ -8,6 +8,7 @@ Import libraries
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.grid_search import GridSearchCV
 ```
+
 ### Random Forests Model
 Import libraries
 ```python
