@@ -2,6 +2,7 @@
 
 ## Data Analysis
 1. Data Visualization
+    - horsepower vs different regions
 
 ## Python
 1. Data Mining
