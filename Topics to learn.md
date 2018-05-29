@@ -19,4 +19,4 @@
 ## Software Development?
  
 ## Quant？
-
+    - Design a program to predict the trend of stock market
