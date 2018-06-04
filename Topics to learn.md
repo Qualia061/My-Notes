@@ -22,3 +22,6 @@
 ## Quant？
    - Design a program to predict the trend of stock market
 
+## Data Mining
+
+## leetcode (java / c++ / python)
