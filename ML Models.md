@@ -86,4 +86,4 @@ from sklearn.model_selection import RandomizedSearchCV
 1. Data Visualizatoin
 2. Overfitting
 3. Tuning the parameters 
-
+ 
