@@ -77,4 +77,4 @@ param_test4 = {
  'reg_alpha':[1e-5, 1e-2, 0.1, 1, 100]
 }
 ```
-Step 6: Reducing Learning Rate 
+Step 6: Reducing Learning Rate  
